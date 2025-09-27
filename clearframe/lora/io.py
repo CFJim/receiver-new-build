@@ -60,7 +60,7 @@ class LoRaLink:
             except Exception as e:
                 print(f"[LoRa] Waveshare driver failed ({e}); falling back to raw UART")
                 import serial
-                self.ser = serial.Serial(port, baudrate=9600, timeout=0.1)
+                self.ser = serial.Serial(port, baudrate=9600, timeout=0.1, exclusive=True)
                 self.ser.reset_input_buffer(); self.ser.reset_output_buffer(); time.sleep(0.05)
         else:
             import serial

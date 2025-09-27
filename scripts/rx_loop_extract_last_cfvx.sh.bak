@@ -1,0 +1,80 @@
+#!/usr/bin/env bash
+set -Eeuo pipefail
+cd "$HOME/cfreceiver"
+. .venv/bin/activate || { python3 -m venv .venv && . .venv/bin/activate; python -m pip -q install -U pip pyserial; }
+
+SRC="$PWD/data/incoming/vectors.bin"            # where the app writes
+PUB="$HOME/clearframe/data/incoming/vectors.bin"# what we overwrite each loop
+mkdir -p "$(dirname "$SRC")" "$(dirname "$PUB")"
+: > "$SRC"
+
+export PYTHONUNBUFFERED=1
+export CF_LOG_LEVEL=DEBUG
+export CF_SERIAL_SNIFFER=1
+export CF_RX_ASCII=0
+export CF_RX_NORMALIZE=0
+export CF_WIRE_MAGIC=CFVX01
+export CF_RX_OVERWRITE=1
+export CF_RX_SAVE_DIR="$PWD/data/incoming"
+
+ARMED=0
+
+extract_last_cfvx () {
+python - "$SRC" "$PUB" <<'PY'
+import sys, os, struct, hashlib
+src, pub = sys.argv[1], sys.argv[2]
+try:
+    with open(src,'rb') as f: data = f.read()
+except FileNotFoundError:
+    sys.exit(1)
+
+MAG=b'CFVX01'
+pos = data.rfind(MAG)
+if pos < 0:
+    print("[rx-extract] no CFVX header found"); sys.exit(2)
+
+if len(data) < pos+28:
+    print("[rx-extract] incomplete header at tail"); sys.exit(3)
+
+i = pos + 6
+i += 1              # flags
+i += 16             # origin
+i += 1              # reserved
+vcnt, ecnt = struct.unpack('<HH', data[i:i+4])
+length = 28 + vcnt*12 + ecnt*4
+
+if len(data) < pos + length:
+    print(f"[rx-extract] trailing CFVX incomplete (need {length}, have {len(data)-pos})"); sys.exit(4)
+
+frame = data[pos:pos+length]
+os.makedirs(os.path.dirname(pub), exist_ok=True)
+with open(pub,'wb') as g: g.write(frame)
+print(f"[rx] saved {pub} ({len(frame)} bytes) sha256={hashlib.sha256(frame).hexdigest()}")
+PY
+}
+
+# merge stderr so we see *all* app logs/sniffer
+stdbuf -oL -eL python -u app.py --role receiver 2>&1 | while IFS= read -r line; do
+  echo "$line"
+
+  case "$line" in
+    "[RX] ident:"*)
+      ARMED=1
+      : > "$SRC"              # clear buffer at start of loop
+      echo "[rx-arm] ident; reset $SRC"
+      ;;
+    "[RX] wrote "*)
+      (( ARMED )) && echo "[rx-chunk] buffer=$(stat -c %s "$SRC" 2>/dev/null || echo 0) bytes"
+      ;;
+    "[RX] completion"*)
+      if (( ARMED )); then
+        # small settle to catch late writes
+        sleep 0.3
+        extract_last_cfvx
+      else
+        echo "[rx-note] completion while disarmed; ignored"
+      fi
+      ARMED=0
+      ;;
+  esac
+done
