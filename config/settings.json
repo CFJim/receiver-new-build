@@ -1,6 +1,6 @@
 {
   "project": "clearframe",
-  "mode": { "role": "receiver", "profile": "testing" },
+  "mode": { "role":"receiver", "profile": "testing" },
   "lora": {
     "region": "US915",
     "frequency_hz": 915000000,
@@ -9,7 +9,7 @@
     "coding_rate": "4/5",
     "preamble_len": 8,
     "sync_word": 52,
-    "tx_power_dbm": 14,
+    "tx_power_dbm": 22,
     "pins": { "spi_bus": 0, "spi_cs": 0, "busy": 4, "dio1": 16, "reset": 18, "txen": 6, "rxen": -1 }
   },
   "identification": { "tx_serial": "CFTX25000001" },
