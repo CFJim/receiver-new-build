@@ -1,0 +1,23 @@
+{
+  "project": "clearframe",
+  "mode": { "role": "receiver", "profile": "testing" },
+  "lora": {
+    "region": "US915",
+    "frequency_hz": 915000000,
+    "bandwidth_khz": 125,
+    "spreading_factor": 7,
+    "coding_rate": "4/5",
+    "preamble_len": 8,
+    "sync_word": 52,
+    "tx_power_dbm": 14,
+    "pins": { "spi_bus": 0, "spi_cs": 0, "busy": 4, "dio1": 16, "reset": 18, "txen": 6, "rxen": -1 }
+  },
+  "identification": { "tx_serial": "CFTX25000001" },
+  "paths": { "outgoing_bin": "data/outgoing/vectors.bin", "incoming_bin": "data/incoming/vectors.bin" },
+  "transport": { "packet_size_bytes": 200, "inter_packet_ms": 20, "completion_key": "CF_DONE" },
+  "features": {
+    "compression": { "enabled_in_operational": true, "algorithm": "lz4", "level": 0 },
+    "encryption": { "enabled_in_operational": true, "cipher": "aes-256-gcm", "keyfile": "config/keys/tx.key" },
+    "bluetooth": { "enabled_on_receiver": true, "target_device_name": "SmartGlasses", "mtu": 180 }
+  }
+}
