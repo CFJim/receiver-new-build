@@ -1,0 +1,1253 @@
+Xsession: X session started for receiver at Wed  1 Oct 02:39:12 CDT 2025
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+xrdb: Can't open display ''
+xhost:  unable to open display ""
+dbus-update-activation-environment: setting USER=receiver
+dbus-update-activation-environment: setting TEXTDOMAIN=Linux-PAM
+dbus-update-activation-environment: setting XDG_SESSION_TYPE=wayland
+dbus-update-activation-environment: setting HOME=/home/receiver
+dbus-update-activation-environment: setting DESKTOP_SESSION=LXDE-pi-labwc
+dbus-update-activation-environment: setting XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+dbus-update-activation-environment: setting DPKG_DEB_THREADS_MAX=1
+dbus-update-activation-environment: setting DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+dbus-update-activation-environment: setting LOGNAME=receiver
+dbus-update-activation-environment: setting XDG_SESSION_CLASS=user
+dbus-update-activation-environment: setting PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/local/games:/usr/games
+dbus-update-activation-environment: setting XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+dbus-update-activation-environment: setting XDG_RUNTIME_DIR=/run/user/1000
+dbus-update-activation-environment: setting LANG=en_GB.UTF-8
+dbus-update-activation-environment: setting XDG_SESSION_DESKTOP=LXDE-pi-labwc
+dbus-update-activation-environment: setting XDG_GREETER_DATA_DIR=/var/lib/lightdm/data/receiver
+dbus-update-activation-environment: setting SHELL=/bin/bash
+dbus-update-activation-environment: setting GDMSESSION=LXDE-pi-labwc
+dbus-update-activation-environment: setting NO_AT_BRIDGE=1
+dbus-update-activation-environment: setting GPG_AGENT_INFO=/run/user/1000/gnupg/S.gpg-agent:0:1
+dbus-update-activation-environment: setting PWD=/home/receiver
+no profile matched
+pgrep: pattern that searches for process name longer than 15 characters will result in zero matches
+Try `pgrep -f' option to match against the complete command line.
+pgrep: pattern that searches for process name longer than 15 characters will result in zero matches
+Try `pgrep -f' option to match against the complete command line.
+Failure: No such entity
+
+(polkit-mate-authentication-agent-1:894): GLib-CRITICAL **: 02:39:22.914: g_variant_new_string: assertion 'string != NULL' failed
+
+(polkit-mate-authentication-agent-1:894): polkit-mate-1-WARNING **: 02:39:22.919: Failed to register client: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name org.gnome.SessionManager was not provided by any .service files
+00:00:11.629 [ERROR] [types/wlr_linux_dmabuf_v1.c:1240] Failed to get backend DRM FD
+** Message: 02:39:37.006: batt: battery 0 not found
+00:00:20.419 [ERROR] [types/wlr_linux_dmabuf_v1.c:1240] Failed to get backend DRM FD
+** Message: 02:39:52.485: up: Checking for updates
+** Message: 02:40:06.935: up: Cache updated - comparing versions
+00:00:38.136 [ERROR] [types/wlr_linux_dmabuf_v1.c:1240] Failed to get backend DRM FD
+00:00:38.148 [ERROR] [types/wlr_linux_dmabuf_v1.c:1240] Failed to get backend DRM FD
+** Message: 02:40:27.361: up: Check complete - 288 updates available
+00:01:11.053 [ERROR] [types/wlr_linux_dmabuf_v1.c:1240] Failed to get backend DRM FD
+00:01:11.053 [ERROR] [types/wlr_linux_dmabuf_v1.c:1240] Failed to get backend DRM FD
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:51:18.366: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:51:18.381: g_variant_get_child_value: assertion 'index_ < g_variant_n_children (value)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:51:18.381: g_variant_get_string: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:51:18.381: g_variant_is_object_path: assertion 'string != NULL' failed
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:51:18.381: g_dbus_object_manager_get_interface: assertion 'g_variant_is_object_path (object_path)' failed
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:51:18.381: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:51:18.381: g_variant_unref: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:51:18.381: g_variant_unref: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:51:18.381: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:51:18.429: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:51:18.430: g_variant_get_type: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:51:18.430: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:51:18.430: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:51:18.430: g_variant_unref: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:51:18.453: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:53:50.252: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:53:50.252: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:53:50.254: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:53:50.254: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:53:50.254: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:53:50.254: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:53:50.255: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:53:50.255: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:53:50.255: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:53:50.255: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:54:24.485: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:54:24.485: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:54:24.485: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:54:24.486: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:54:24.486: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:54:24.486: g_variant_get_type: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:54:24.486: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:54:24.486: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:54:24.486: g_variant_get_type: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:54:24.486: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:54:24.486: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:54:24.486: g_variant_get_type: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:54:24.486: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:54:24.487: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:54:24.487: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:54:54.480: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:54:54.481: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:54:54.481: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:54:54.481: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:54:54.481: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:54:54.481: g_variant_get_type: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:54:54.481: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:54:54.481: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:54:54.481: g_variant_get_type: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:54:54.481: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:54:54.481: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:54:54.481: g_variant_get_type: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:54:54.482: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:54:54.482: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:54:54.482: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:51.788: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:51.796: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:51.797: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:51.797: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:56:51.797: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:51.797: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:51.797: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:56:51.797: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:51.797: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:51.797: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:51.863: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:51.863: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:51.863: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:51.863: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:51.869: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:51.869: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:51.869: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:51.869: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:56:51.869: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:51.869: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:56:51.869: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:51.869: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:51.869: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:56:51.869: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:51.869: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:56:51.869: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:51.869: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:51.869: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:51.925: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:51.925: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:51.925: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:51.925: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:56:51.925: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:51.925: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:51.925: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:56:51.925: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:51.926: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:51.926: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:51.926: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:56:51.926: g_variant_get_child_value: assertion 'index_ < g_variant_n_children (value)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:56:51.926: g_variant_get_string: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:56:51.926: g_variant_is_object_path: assertion 'string != NULL' failed
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:56:51.926: g_dbus_object_manager_get_interface: assertion 'g_variant_is_object_path (object_path)' failed
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:56:51.926: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:56:51.926: g_variant_unref: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:56:51.926: g_variant_unref: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:51.926: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:51.927: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:51.927: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:51.927: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:51.927: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:56:51.957: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:56:51.957: g_variant_get_type: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:56:51.957: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:56:51.957: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:56:51.957: g_variant_unref: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:51.958: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:51.958: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:51.958: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:56:52.219: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:56:52.219: g_variant_get_type: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:56:52.219: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:56:52.219: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 02:56:52.219: g_variant_unref: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:52.278: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:52.278: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:52.278: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:56:52.279: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:52.279: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:52.279: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:52.279: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:52.279: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:56:52.279: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:52.279: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:52.279: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:52.279: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:52.279: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:56:52.279: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:52.279: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:52.280: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:52.280: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:52.280: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:56:52.280: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:52.280: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:52.392: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:52.392: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:52.392: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:56:52.392: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:52.392: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:52.426: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:52.426: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:52.426: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:56:52.426: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:52.426: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:52.439: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:52.439: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:52.440: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:56:52.440: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:52.440: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:52.442: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:52.442: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:52.442: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:56:52.442: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:52.442: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:52.444: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:52.444: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:52.444: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:56:52.444: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:52.444: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:52.453: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:52.454: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:52.454: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:56:52.454: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:52.454: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:52.459: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:52.459: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:52.459: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:56:52.459: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:52.460: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:52.469: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:52.469: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:52.469: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:56:52.469: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:52.469: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:52.471: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:52.471: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:52.471: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:56:52.471: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:52.471: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:52.482: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:52.483: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:52.483: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:56:52.483: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:52.483: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:52.488: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:52.488: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:52.488: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:56:52.488: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:52.489: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:52.495: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:52.496: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:52.496: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:56:52.496: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:52.496: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:52.542: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:52.542: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:56:52.542: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:56:52.542: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:56:52.542: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:57:45.927: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:57:45.928: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:57:45.929: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:57:45.929: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:57:45.929: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:57:45.930: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:57:45.930: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:57:45.964: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:57:45.964: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 02:57:45.964: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 02:57:45.964: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 02:57:45.964: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:02:14.387: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:02:14.388: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:02:14.388: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:02:14.388: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:02:14.388: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:02:14.388: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:02:14.388: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:02:14.425: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:02:14.425: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:02:14.425: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:02:14.425: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:02:14.425: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:07.722: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:04:07.722: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:04:07.723: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:04:07.723: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:07.723: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:07.728: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:04:07.728: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:04:07.728: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:04:07.728: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:07.728: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:07.729: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:07.729: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:07.763: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:07.764: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:07.799: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:07.799: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:04:07.800: g_variant_get_child_value: assertion 'index_ < g_variant_n_children (value)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:04:07.800: g_variant_get_string: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:04:07.800: g_variant_is_object_path: assertion 'string != NULL' failed
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:04:07.800: g_dbus_object_manager_get_interface: assertion 'g_variant_is_object_path (object_path)' failed
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:04:07.800: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:04:07.800: g_variant_unref: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:04:07.800: g_variant_unref: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:07.800: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:04:07.832: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:04:07.832: g_variant_get_type: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:04:07.833: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:04:07.833: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:04:07.833: g_variant_unref: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:07.833: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:04:08.087: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:04:08.087: g_variant_get_type: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:04:08.087: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:04:08.087: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:04:08.087: g_variant_unref: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:08.169: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:04:08.170: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:04:08.170: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:04:08.170: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:08.170: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:08.171: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:04:08.171: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:04:08.171: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:04:08.171: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:08.171: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:08.266: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:04:08.266: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:04:08.266: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:04:08.267: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:08.267: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:08.276: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:04:08.276: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:04:08.277: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:04:08.277: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:08.277: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:08.296: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:04:08.296: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:04:08.296: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:04:08.297: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:08.297: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:08.301: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:04:08.302: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:04:08.302: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:04:08.302: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:08.302: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:08.308: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:04:08.308: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:04:08.308: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:04:08.308: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:08.308: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:08.311: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:04:08.312: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:04:08.312: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:04:08.312: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:08.312: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:08.322: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:04:08.322: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:04:08.322: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:04:08.322: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:08.322: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:08.325: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:04:08.325: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:04:08.325: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:04:08.325: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:08.325: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:08.337: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:04:08.337: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:04:08.337: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:04:08.337: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:08.337: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:08.342: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:04:08.342: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:04:08.342: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:04:08.342: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:08.342: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:08.351: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:04:08.351: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:04:08.351: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:04:08.351: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:08.351: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:08.469: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:04:08.470: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:04:08.470: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:04:08.470: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:04:08.470: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:43.448: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:43.448: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:43.449: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:43.449: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:43.449: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:43.455: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:43.455: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:43.455: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:43.455: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:43.455: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:43.455: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:43.457: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:43.543: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:43.543: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:43.582: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:43.582: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:43.582: g_variant_get_child_value: assertion 'index_ < g_variant_n_children (value)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:43.582: g_variant_get_string: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:43.582: g_variant_is_object_path: assertion 'string != NULL' failed
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:43.583: g_dbus_object_manager_get_interface: assertion 'g_variant_is_object_path (object_path)' failed
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:43.583: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:43.583: g_variant_unref: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:43.583: g_variant_unref: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:43.583: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:43.613: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:43.613: g_variant_get_type: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:43.613: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:43.613: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:43.613: g_variant_unref: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:43.613: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:43.924: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:43.925: g_variant_get_type: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:43.925: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:43.925: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:43.925: g_variant_unref: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.012: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:44.012: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:44.012: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:44.012: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.012: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.012: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:44.013: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:44.013: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:44.013: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.013: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.013: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:44.013: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:44.013: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:44.013: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.013: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.014: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:44.014: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:44.014: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:44.014: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.014: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.023: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:44.023: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:44.023: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:44.023: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.023: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.036: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:44.036: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:44.036: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:44.036: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.036: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.045: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:44.045: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:44.045: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:44.045: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.045: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.080: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:44.080: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:44.081: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:44.081: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.081: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.086: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:44.087: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:44.088: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:44.089: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.089: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.101: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:44.101: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:44.102: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:44.102: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.102: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.107: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:44.107: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:44.107: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:44.107: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.108: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.119: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:44.119: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:44.119: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:44.119: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.119: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.120: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:44.121: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:44.121: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:44.121: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.121: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.125: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:44.126: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:44.126: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:44.126: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.126: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.135: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:44.135: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:44.135: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:44.135: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.136: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.152: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:44.152: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:44.152: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:44.152: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.152: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.243: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:44.243: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:44.243: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:44.243: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.243: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.244: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.244: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.293: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.293: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.328: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.328: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:44.329: g_variant_get_child_value: assertion 'index_ < g_variant_n_children (value)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:44.329: g_variant_get_string: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:44.329: g_variant_is_object_path: assertion 'string != NULL' failed
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:44.329: g_dbus_object_manager_get_interface: assertion 'g_variant_is_object_path (object_path)' failed
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:44.329: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:44.329: g_variant_unref: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:44.329: g_variant_unref: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.329: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:44.360: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:44.360: g_variant_get_type: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:44.360: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:44.360: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:44.360: g_variant_unref: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:44.360: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.132: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.133: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:49.165: g_variant_get_child_value: assertion 'index_ < g_variant_n_children (value)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:49.165: g_variant_get_string: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:49.165: g_variant_is_object_path: assertion 'string != NULL' failed
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:49.165: g_dbus_object_manager_get_interface: assertion 'g_variant_is_object_path (object_path)' failed
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:49.165: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:49.165: g_variant_unref: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:49.165: g_variant_unref: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.165: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:49.193: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:49.193: g_variant_get_type: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:49.193: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:49.193: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:49.194: g_variant_unref: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.194: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:49.453: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:49.454: g_variant_get_type: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:49.454: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:49.454: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:49.454: g_variant_unref: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.515: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:49.515: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:49.515: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:49.515: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.515: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.516: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:49.516: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:49.516: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:49.516: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.516: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.516: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:49.516: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:49.516: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:49.516: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.516: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.640: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:49.640: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:49.640: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:49.640: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.640: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.660: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:49.660: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:49.661: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:49.661: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.661: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.669: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:49.669: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:49.669: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:49.669: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.669: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.676: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:49.676: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:49.676: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:49.677: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.677: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.705: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:49.706: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:49.706: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:49.706: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.706: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.723: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:49.724: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:49.724: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:49.724: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.724: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.725: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:49.725: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:49.725: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:49.725: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.725: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.737: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:49.737: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:49.738: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:49.738: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.738: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.739: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:49.739: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:49.739: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:49.739: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.739: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.750: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:49.751: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:49.751: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:49.751: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.751: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.752: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:49.752: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:49.752: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:49.752: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.752: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.764: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:49.764: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:49.764: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:49.764: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.764: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.765: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:49.765: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:49.765: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:49.765: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.765: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.777: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:49.777: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:49.778: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:49.778: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.778: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.782: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:49.782: invalid unclassed pointer in cast to 'GDBusInterface'
+
+(wf-panel-pi:908): GLib-GObject-WARNING **: 03:05:49.782: invalid unclassed pointer in cast to 'GDBusProxy'
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:49.783: g_dbus_proxy_get_interface_name: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.783: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.783: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.783: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.814: g_object_ref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.815: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.846: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.846: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:49.846: g_variant_get_child_value: assertion 'index_ < g_variant_n_children (value)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:49.846: g_variant_get_string: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:49.847: g_variant_is_object_path: assertion 'string != NULL' failed
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:49.847: g_dbus_object_manager_get_interface: assertion 'g_variant_is_object_path (object_path)' failed
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:49.847: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:49.847: g_variant_unref: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:49.847: g_variant_unref: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.847: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+
+(wf-panel-pi:908): GLib-GIO-CRITICAL **: 03:05:49.870: g_dbus_proxy_get_cached_property: assertion 'G_IS_DBUS_PROXY (proxy)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:49.873: g_variant_get_type: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:49.873: g_variant_type_is_subtype_of: assertion 'g_variant_type_check (type)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:49.873: g_variant_get_boolean: assertion 'g_variant_is_of_type (value, G_VARIANT_TYPE_BOOLEAN)' failed
+
+(wf-panel-pi:908): GLib-CRITICAL **: 03:05:49.873: g_variant_unref: assertion 'value != NULL' failed
+
+(wf-panel-pi:908): GLib-GObject-CRITICAL **: 03:05:49.874: g_object_unref: assertion 'G_IS_OBJECT (object)' failed

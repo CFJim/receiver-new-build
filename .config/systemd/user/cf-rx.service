@@ -1,0 +1,15 @@
+[Unit]
+Description=Clearframe RX test mode (arm on ID, print every packet, CFVX-only save)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+ExecStart=/bin/bash -lc '/home/receiver/cfreceiver/scripts/rx_test_loop_print_packets.sh'
+Restart=always
+RestartSec=2
+StandardOutput=append:/home/receiver/clearframe/logs/cf-rx.service.log
+StandardError=append:/home/receiver/clearframe/logs/cf-rx.service.log
+
+[Install]
+WantedBy=default.target
