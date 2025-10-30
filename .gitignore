@@ -7,3 +7,6 @@ data/outgoing/
 *.log
 config/keys/
 *.zip
+# runtime artifacts (not source)
+run/clearframe.pid
+data/
